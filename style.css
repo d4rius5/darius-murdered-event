@@ -26,6 +26,12 @@ h1 {
     color: #A98D7E;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #A98D7E;
+}
+
 /* Paragraphs */
 p {
     font-size: 1.2rem;
