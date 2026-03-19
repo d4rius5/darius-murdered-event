@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    font-family: "Google Sans", sans-serif;
+    background-color: #14100D;
+    color: #FFF1EA;
+    text-align: center;
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* Fade-out effect */
+body.fade-out {
+    opacity: 0;
+}
+
+/* Headings */
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #A98D7E;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Italic text */
+.italics {
+    font-style: italic;
+    color: #A98D7E;
+}
+
+/* Navigation list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Links styled as buttons */
+li a {
+    display: block;
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+
+    background-color: #A98D7E;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+}
+
+/* Hover effect */
+li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    li a {
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+}
