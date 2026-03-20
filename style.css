@@ -21,13 +21,13 @@ body.fade-out {
 
 /* Headings */
 h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 3rem;
     color: #A98D7E;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
     color: #A98D7E;
 }
@@ -89,4 +89,9 @@ li a:hover {
         padding: 14px;
         font-size: 0.95rem;
     }
+}
+
+footer{
+    font-size: 0.6rem;
+    padding-top: 1rem;
 }
